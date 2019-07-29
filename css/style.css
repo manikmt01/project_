@@ -1,0 +1,305 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/*banner section start*/
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+/*banner section end*/
+/*free_time section start*/
+.free_time {
+    overflow: hidden;
+    padding: 80px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.free_left {
+    width: 74%;
+    float: left;
+}
+
+.free_left h1 {
+    font-size: 32px;
+    color: #3B4864;
+    margin-bottom: 10px;
+}
+
+.free_left p {
+    width: 60%;
+    font-size: 14px;
+    color: #817879;
+    line-height: 20px;
+}
+
+.free_right {
+    width: 26%;
+    float: right;
+    margin-top: 35px;
+}
+
+.btn_0,
+.btn_1 {
+    background: #FEE21C;
+    border: 1px solid #fee21c;
+    color: #3B4864;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-transition: all ease .4s;
+    transition: all ease .4s;
+}
+
+.btn_0:hover {
+    background: #fff;
+    border: 1px solid #9FACF8;
+    color: #9FACF8;
+}
+
+.btn_1 {
+    background: none;
+    border: 1px solid #9FACF8;
+    color: #9FACF8;
+    margin-left: 10px;
+}
+
+.btn_1:hover {
+    background: #FEE21C;
+    border: 1px solid #fee21c;
+    color: #3B4864;
+}
+
+/*free_time section end*/
+/*service section start*/
+.service {
+    background-color: #FF4948;
+    padding: 80px 0;
+    overflow: hidden;
+}
+
+.service_1,
+.service_2,
+.service_3 {
+    width: 31%;
+    float: left;
+    margin-right: 39px;
+    color: #fff;
+}
+
+.service_3 {
+    margin-right: 0;
+}
+
+.service_same {}
+
+.service_same h1 {
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.service_same h6 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.service_same p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/*service section end*/
+/*jemes marth section start*/
+.jemes_marth {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.jemes_left {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.jemes_left p {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    color: #43557E;
+}
+
+.jemes_left h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #3E4234;
+}
+
+.jemes_left h6 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: #3E4234;
+}
+
+.jemes_right {
+    width: 45%;
+    float: right;
+}
+
+.jemes_right img {
+    width: 100%;
+}
+
+/*jemes marth section end*/
+/*3 button secction start*/
+.btn_all {
+    background-color: #FF4948;
+    text-align: center;
+    padding: 80px 0;
+    overflow: hidden;
+}
+
+.btn_3 {}
+
+.btn_a,
+.btn_b,
+.btn_c {
+    padding: 15px 30px;
+    border: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-transition: all ease .4s;
+    transition: all ease .4s;
+}
+
+.btn_a {
+    background-color: #fee21c;
+    color: #3e4234;
+}
+
+.btn_a:hover {
+    background-color: #3e4234;
+    color: #fff;
+}
+
+.btn_b {
+    background-color: #fff;
+    color: #3e4234;
+}
+
+.btn_b:hover {
+    background-color: #fee21c;
+    color: #3e4234;
+}
+
+.btn_c {
+    margin-right: 0;
+    background-color: #3e4234;
+    color: #fff;
+}
+
+.btn_c:hover {
+    background-color: #fff;
+    color: #3e4234;
+}
+
+/*3 button secction end*/
+/*jena smith section start*/
+.jena_smith {
+    width: 35%;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.client {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.client_img {
+    width: 24%;
+    float: left;
+}
+
+.client_img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+}
+
+.client_post {
+    width: 76%;
+    float: left;
+    overflow: hidden;
+    margin-top: 25px;
+}
+
+.client_post h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    color: #484545;
+}
+
+.client_post h6 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #6f6b6b;
+}
+
+.client_comment {
+    width: 80%;
+    background: #ed4649;
+    padding: 30px 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.client_comment p {}
+
+/*jena smith section end*/
+/*footer section start*/
+footer {
+    text-align: center;
+    background-color: #fee21c;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 14px;
+    word-spacing: 1px;
+}
+
+footer p a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #3e4234;
+    -webkit-transition: all ease .4s;
+    transition: all ease .4s;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+/*footer section end*/
